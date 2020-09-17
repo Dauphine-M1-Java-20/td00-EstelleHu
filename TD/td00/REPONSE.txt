@@ -1,0 +1,38 @@
+Estelle HU
+
+
+4)Utilisant la commande mvn -v
+Ma version de maven : 3.6.2
+
+5)groupid indique l'unique identiant de l'organisation ou du groupe qui a crée le projet. 
+Le groupId est l'unt des clés identifiantes d'un projet et est basé 
+sur le nom de domaine de l'organisation.
+
+artifactId indique le nom de base unique de l'artéfact principal généré par le projet. 
+L'artéfact principal d'un projet est généralement un fichier JAR. 
+Les autres artéfacts comme les sources bundles utilisent aussi artifactId comme partie de le leur nom final.
+
+6)Le répertoire target contient les répertoires classes et maven-status
+
+8) Classpath est un paramètre passé à une machine virtuelle Java qui définit le chemin d'accès au répertoire où se trouvent les classes et les packages Java afin qu'elle les exécute.
+
+13) La propriété maven.compiler.target permet aux classes compilées d'être compatible avec la bonne version de la JVM. Donc ici la valeur attentdue est 1.8.
+
+Exercice 2
+
+1) Lorsque j'exécute java -jar target/td00-1.0-SNAPSHOT, j'ai une erreur "Error: Unable to access jarfile target/td00-1.0-SNAPSHOT".
+
+Exercice 3 
+
+3) Ce raccourci permet la complétion automatique pour System.out.println();
+
+4) On nous propose la complétion pour deux méthodes toString() que l'on peut choisir.
+
+5) On nous propose la complétion automatique de la signature de la méthode main.
+
+6) On nous propose la complétion automatique de 3 méthodes : getToto() le getter de toto, get() et GetField().
+
+7) C'est le raccourci pour réfactor, c'est-à-dire remplacer le nom de la classe par un autre nom toutes les fois où le nom apparait dans la classe.
+  Pareil pour toto, je pourrais par exemple remplacer tous les toto présents par "tata".
+
+8) Cela nous emmène vers la classe String.
