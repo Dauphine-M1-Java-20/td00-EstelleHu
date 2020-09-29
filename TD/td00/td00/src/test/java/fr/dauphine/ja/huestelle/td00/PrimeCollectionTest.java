@@ -1,5 +1,8 @@
 package fr.dauphine.ja.huestelle.td00;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
@@ -10,6 +13,7 @@ import junit.framework.TestSuite;
 public class PrimeCollectionTest 
     extends TestCase
 {
+	
     /**
      * Create the test case
      *
@@ -27,12 +31,31 @@ public class PrimeCollectionTest
     {
         return new TestSuite( PrimeCollectionTest.class );
     }
-
+    public boolean test0IsNotPrime() {
+    	if(PrimeCollection.isPrime(0)==false) {
+    		return true;
+    	}
+    	return false;
+    }
+    public boolean testTwoIsPrime(){
+    	if(PrimeCollection.isPrime(2)==false) {
+    		return false;
+    	}
+    	return true;
+    }
+    public boolean  test9IsNotPrime(){
+    	if(PrimeCollection.isPrime(9)==false) {
+    		return true;
+    	}
+    	return false;
+    }
     /**
      * Rigourous Test :-)
      */
     public void testPrimeCollection()
     {
-        assertTrue( true );
+        assertTrue(test0IsNotPrime());
+        assertTrue(testTwoIsPrime());
+        assertTrue(test9IsNotPrime());
     }
 }
