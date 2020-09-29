@@ -1,0 +1,21 @@
+Estelle HU
+
+Exercice 1 :
+
+5) On observe les modification effectuées.
+
+8) e333c7bb2b42fee6ba84b5f29c06b38378736857 
+
+Exercice 2 :
+
+3) Les deux branches sont vertes (master et remote/origin/master)
+
+5) Il y a un conflit.
+
+6) On retrouve le fichier sans les modifications apportées.
+
+Exercice 3 :
+
+2) On observe un barre verte. On observe ensuite une barre rouge. La method assertTrue() évalue l'expression booléenne passée en paramètre et renvoie True si l'expression est vraie.
+
+
